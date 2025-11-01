@@ -20,16 +20,20 @@ Tools & Technologies
 - Power BI: Interactive dashboard for business insights
 
 🔄 Project Workflow
+
 **Data Ingestion**
 Automated loading of CSVs into SQLite using Python and SQLAlchemy with logging for traceability.
+
 **Data Cleaning**
 - Removed whitespace and missing values
 - Converted volume to float64
 - Created new metrics: GrossProfit, ProfitMargin, StockTurnover, SalesPurchaseRatio
+- 
 **Exploratory Data Analysis (EDA)**
 - Record counts and summary statistics
 - Distribution plots to detect outliers
 - Count plots for top vendors and product descriptions
+- 
 **Performance Analysis**
 - Identified top vendors by sales and gross profit
 - Flagged brands with low sales but high margins
